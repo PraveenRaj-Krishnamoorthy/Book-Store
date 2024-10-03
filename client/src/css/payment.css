@@ -1,0 +1,37 @@
+body{
+    background-color: #D7C3F1;
+}
+
+.payment {
+    margin: 150px auto;
+    width: 550px;
+    height: 300px;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(132, 167, 132);
+    padding: 10px;
+}
+
+.detail {
+    margin-top: 10px;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.button {
+    /* border: 2px solid; */
+    text-align: end;
+}
+
+button {
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+    font-size: large;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}

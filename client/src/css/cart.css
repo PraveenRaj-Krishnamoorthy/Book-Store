@@ -1,0 +1,117 @@
+.cartPage {
+    position: relative;
+    width: 100%;
+    height: 735px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    overflow: scroll;
+    border: 2px solid;
+    background-color: #F5EFFF;
+}
+
+.ordered {
+    border: 2px solid;
+}
+
+.c-td button {
+    padding: 10px;
+    font-size: large;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: 0.3s;
+    border: none;
+    outline: none;
+    margin-right: 5px;
+}
+
+.c-td button:hover {
+    scale: 1.3;
+    transition: 0.1s;
+}
+
+.plus{
+    background-color: lightgreen;
+}
+.minus{
+    background-color: rgb(213, 54, 54);
+}
+
+.form {
+    width: 350px;
+    height: 300px;
+    border: 2px solid;
+    background-color: #C68FE6;
+}
+
+form {
+    width: 100%;
+    height: 100%;
+}
+
+.label {
+    font-size: larger;
+    width: 35%;
+}
+
+form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+}
+
+form input[type="radio"] {
+    scale: 1.5;
+}
+
+.form table {
+    width: 100%;
+    height: 300px;
+}
+
+
+.form .butt {
+    border: 2px solid;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: large;
+    cursor: pointer;
+    transition: 0.2s;
+    background-color: green;
+    color: whitesmoke;
+}
+
+.form button:hover {
+    scale: 1.1;
+    transition: 0.2s;
+}
+
+.c-table {
+    width: 100%;
+    /* height: 100%; */
+    border-collapse: collapse;
+}
+
+.c-th {
+    border: 2px solid;
+    padding: 15px;
+    font-size: larger;
+}
+
+.c-td, .tf {
+    border: 2px solid black;
+    padding: 10px;
+    font-size: large;
+    text-align: center;
+}
+
+@media screen and (min-width: 1100px) {
+    .cartPage {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+}
